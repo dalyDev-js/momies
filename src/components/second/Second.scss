@@ -1,0 +1,40 @@
+.second {
+  height: 100vh;
+  background-color: aqua;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yellow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffc300;
+  height: 100vh;
+  width: 50%;
+  padding: 0 2em;
+  h1 {
+    color: #219ebc;
+    font-size: 4rem;
+    text-align: left;
+    padding: 0 2em;
+  }
+  p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+}
+.white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 50%;
+  img {
+    max-width: 80%;
+    overflow: hidden;
+  }
+}
